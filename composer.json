@@ -1,0 +1,23 @@
+{
+  "name": "calcinai/rubberneck",
+  "description": "Utility to monitor file system changes",
+  "type": "Library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Calcinai",
+      "email": "michael@calcin.ai"
+    }
+  ],
+  "require": {
+    "react/event-loop": "^0.4.1"
+  },
+  "suggest": {
+    "ext-inotify": "*"
+  },
+  "autoloader": {
+    "psr-4": {
+      "Calcinai\\Rubberneck\\": "src/Rubberneck"
+    }
+  }
+}

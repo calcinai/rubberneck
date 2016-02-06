@@ -16,7 +16,7 @@
   "suggest": {
     "ext-inotify": "*"
   },
-  "autoloader": {
+  "autoload": {
     "psr-4": {
       "Calcinai\\Rubberneck\\": "src/Rubberneck"
     }

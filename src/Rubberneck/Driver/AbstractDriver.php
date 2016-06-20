@@ -8,7 +8,7 @@ namespace Calcinai\Rubberneck\Driver;
 
 use Calcinai\Rubberneck\Observer;
 
-abstract class AbstractDriver implements DriverInterface {
+abstract class AbstractDriver {
 
     /**
      * @var Observer $observer

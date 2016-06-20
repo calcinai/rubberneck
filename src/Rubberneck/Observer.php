@@ -30,12 +30,15 @@ class Observer {
      */
     private $driver;
 
+    protected $listeners;
+
     /**
      * List of available drivers in order of preference
      *
      * @var Driver\DriverInterface[]
      */
     static $drivers = [
+        Driver\InotifyWait::class,
         Driver\Filesystem::class
     ];
 

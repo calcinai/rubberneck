@@ -9,7 +9,7 @@ namespace Calcinai\Rubberneck\Driver;
 
 use Calcinai\Rubberneck\Observer;
 
-class Filesystem extends AbstractDriver {
+class Filesystem extends AbstractDriver implements DriverInterface {
 
     const DEFAULT_POLL_INTERVAL = 0.05;
 
@@ -34,7 +34,7 @@ class Filesystem extends AbstractDriver {
 
 
     private function startTail(){
-        //echo 'sghr';
+        //echo 'tail';
     }
 
     private function startFind() {

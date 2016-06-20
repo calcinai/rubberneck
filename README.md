@@ -1,9 +1,10 @@
 # Rubberneck
 A simple binding for ReactPHP event loops to watch files.
 
-Currently only file poling in implemented, but is designed with stubs for inotify or any other method.
+Currently only file poling and inotifywait in implemented, but is designed with stubs for other methods.
 
-The filesystem driver isn't the most efficient, but it works!
+If possible, install `inotifywait` on your system, in Debian it's in the `inotify-tools` package.  It is much more efficient than the file 
+poll method.
 
 #Usage
 

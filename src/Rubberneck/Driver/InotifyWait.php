@@ -37,8 +37,7 @@ class InotifyWait extends AbstractDriver implements DriverInterface {
      *
      * @param $stream
      */
-    public function onData($stream){
-        echo 'data';
+    public function onData($stream){        
         $event_lines = fread($stream, 1024);
 
         //Can have multiple events per read (or not enough)

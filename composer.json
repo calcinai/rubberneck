@@ -1,5 +1,5 @@
 {
-  "name": "devgiants/filesystem-notifications",
+  "name": "calcinai/rubberneck",
   "description": "Utility to monitor file system changes",
   "type": "Library",
   "license": "MIT",
